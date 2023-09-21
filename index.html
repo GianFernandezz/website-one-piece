@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desinic - Get Best UI Design</title>
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo"><img src="assets/img/logo-onepiece.png" width="80" alt="logo-onepiece"></h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo"><img src="assets/img/logo-onepiece.png" width="80" alt="logo-onepiece"></a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-navbar-link>Inicio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#history" class="navbar-link" data-navbar-link>Historia</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#arcos" class="navbar-link" data-navbar-link>Arcos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#manga" class="navbar-link" data-navbar-link>Manga</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+        <span>Descubre de más</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Lorem ipsum dolor sit.</p>
+
+            <h2 class="h2 hero-title">Lorem ipsum dolor sit amet consectetur.</h2>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium ex corporis.
+            </p>
+
+            <button class="btn">Learn More</button>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/img/robin.png" width="694" height="529" id="luffy" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <!-- Son los personajes -->
+            <ul class="personajes">
+            <li><img src="assets/img/zoro.png" onclick="imgSlider('assets/img/zoro.png'); changeCircleColor('#017143')" alt="Zoro"></li>
+            <li><img src="assets/img/nami.png" onclick="imgSlider('assets/img/nami.png'); changeCircleColor('#eb7495')" alt="Nami"></li>
+            <li><img src="assets/img/god-usopp.png" onclick="imgSlider('assets/img/god-usopp.png'); changeCircleColor('#d752b1')" alt="God Usopp"></li>
+            </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/img/bg-onepiece.jpg" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">Historia de One Piece</h2>
+
+            <p class="about-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores tempore ipsa aspernatur repellendus alias. Numquam, sapiente, unde, eligendi alias modi nobis delectus beatae nemo aut consectetur distinctio placeat corrupti at.
+            </p>
+
+            <p class="about-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas earum minus, laborum eligendi minima facere et quod iste provident assumenda.
+            </p>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">+1000</p>
+
+                <p class="stats-text">Capitulos</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">654</p>
+
+                <p class="stats-text">Arcos</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">+20</p>
+
+                <p class="stats-text">Años Top 1 en ventas</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+          
+
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">gianferdev</a>. All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/app.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+<!-- Son los personajes -->
+<!-- <ul class="thumb">
+    <li><img src="assets/img/zoro.png" onclick="imgSlider('assets/img/zoro.png'); changeCircleColor('#017143')" alt="Zoro"></li>
+    <li><img src="assets/img/nami.png" onclick="imgSlider('assets/img/nami.png'); changeCircleColor('#eb7495')" alt="Nami"></li>
+    <li><img src="assets/img/god-usopp.png" onclick="imgSlider('assets/img/god-usopp.png'); changeCircleColor('#d752b1')" alt="God Usopp"></li>
+</ul> -->
